@@ -1,6 +1,6 @@
 use std::net::TcpListener;
 
-use sqlx::{PgConnection, Connection};
+use sqlx::{Connection, PgConnection};
 use zero2prod2022::configuration::get_configuration;
 
 fn spawn_app() -> String {
